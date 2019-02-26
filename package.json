@@ -13,5 +13,9 @@
   "scripts": {
     "build": "netlify-lambda build src/",
     "serve": "netlify-lambda serve src/"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.16.0",
+    "@types/node": "^11.9.5"
   }
 }
